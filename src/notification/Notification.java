@@ -9,5 +9,9 @@ public abstract class Notification {
         this.sender = sender;
     }
 
+    public void setSender(MessageSender sender) {
+        this.sender = sender;
+    }
+
     public abstract void notifyUser(String message);
 }
